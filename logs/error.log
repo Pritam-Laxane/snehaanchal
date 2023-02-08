@@ -1,0 +1,1211 @@
+[2/6/2023, 2:18:55 PM] error: uncaughtException: Unknown column 'updated_from' in 'field list'
+Error
+    at Query.run (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.select (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Function.findAll (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1134:21)
+    at async Function.findOne (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1228:12)
+    at async Function.findByPk (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1215:12)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\helpers\init-passport.js:45:20
+[2/6/2023, 2:20:14 PM] error: uncaughtException: Unknown column 'updated_from' in 'field list'
+Error
+    at Query.run (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\sequelize.js:314:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.select (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Function.findAll (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1134:21)
+    at async Function.findOne (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1228:12)
+    at async Function.findByPk (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1215:12)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\helpers\init-passport.js:45:20
+[2/6/2023, 2:20:56 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\patientPages\registerPatient.ejs:75
+    73|                     <select required aria-required="true" class="form-select mb-2" id="patient_type" name="patient_type">
+    74|                       <option>Select</option>
+ >> 75|                       <% patientTypes.forEach(pType => { %>
+    76|                       <option label="<%= pType.type_name %>" value="<%= pType.id %>"></option>
+    77|                       <% }) %>
+    78|                     </select>
+
+patientTypes is not defined
+[2/6/2023, 2:31:55 PM] error: uncaughtException: missing ) after argument list
+D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:6
+  console.log('getReligion request ' req) 
+              ^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:5:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/6/2023, 2:40:57 PM] error: uncaughtException: Maximum call stack size exceeded
+RangeError: Maximum call stack size exceeded
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+    at getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:7:28)
+[2/6/2023, 2:41:55 PM] error: Can't fetch religions from database db is not defined
+[2/6/2023, 2:41:55 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 2:42:29 PM] error: Can't fetch religions from database db is not defined
+[2/6/2023, 2:42:29 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 2:42:30 PM] error: Can't fetch religions from database db is not defined
+[2/6/2023, 2:42:30 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 2:43:54 PM] error: uncaughtException: Unexpected identifier
+D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:3
+nst db = require('../helpers/init-mysql');
+    ^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:11:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/6/2023, 2:44:14 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 2:44:16 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 2:49:21 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+[2/6/2023, 2:49:22 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+[2/6/2023, 2:52:15 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 2:52:34 PM] error: Unexpected token ';' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:43:05 PM] error: Could not find matching close tag for "<%".
+[2/6/2023, 3:43:16 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:43:23 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:43:24 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:43:24 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:43:49 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:43:49 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:43:51 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:43:52 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:47:18 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:47:18 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:47:18 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:47:19 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:47:19 PM] error: Unexpected token '[' in D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+[2/6/2023, 3:47:26 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:38
+    36|             </tr>
+    37| 
+ >> 38|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    39|               <tr>
+    40|                 <td>
+    41|                   <%=i; %>
+
+userData.forEach is not a function
+[2/6/2023, 3:47:26 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:38
+    36|             </tr>
+    37| 
+ >> 38|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    39|               <tr>
+    40|                 <td>
+    41|                   <%=i; %>
+
+userData.forEach is not a function
+[2/6/2023, 3:47:27 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:38
+    36|             </tr>
+    37| 
+ >> 38|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    39|               <tr>
+    40|                 <td>
+    41|                   <%=i; %>
+
+userData.forEach is not a function
+[2/6/2023, 3:47:27 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:38
+    36|             </tr>
+    37| 
+ >> 38|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    39|               <tr>
+    40|                 <td>
+    41|                   <%=i; %>
+
+userData.forEach is not a function
+[2/6/2023, 3:47:27 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:38
+    36|             </tr>
+    37| 
+ >> 38|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    39|               <tr>
+    40|                 <td>
+    41|                   <%=i; %>
+
+userData.forEach is not a function
+[2/6/2023, 3:47:27 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:38
+    36|             </tr>
+    37| 
+ >> 38|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    39|               <tr>
+    40|                 <td>
+    41|                   <%=i; %>
+
+userData.forEach is not a function
+[2/6/2023, 3:50:59 PM] error: uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at getReligions (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:43:13)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:19:28
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:144:13)
+    at ensureAuthenticated (D:\NODE JS PROGRAM\snehaanchal-app-new\helpers\auth-helper.js:3:12)
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:284:15
+[2/6/2023, 3:51:16 PM] error: uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at getReligions (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:43:13)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:19:28
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:144:13)
+    at ensureAuthenticated (D:\NODE JS PROGRAM\snehaanchal-app-new\helpers\auth-helper.js:3:12)
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:284:15
+[2/6/2023, 3:51:35 PM] error: uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at getReligions (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:44:13)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:19:28
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:144:13)
+    at ensureAuthenticated (D:\NODE JS PROGRAM\snehaanchal-app-new\helpers\auth-helper.js:3:12)
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:284:15
+[2/6/2023, 3:52:07 PM] error: uncaughtException: Identifier 'logger' has already been declared
+D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:3
+const logger = require('../helpers/winston');
+      ^
+
+SyntaxError: Identifier 'logger' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:11:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/7/2023, 10:26:39 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:26:52 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:28:31 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:28:51 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:29:10 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:29:50 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:30:41 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:33:59 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:34:30 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:34:37 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:117:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:34:40 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:36:36 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:37:16 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:42:40 AM] error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+[2/7/2023, 10:44:00 AM] error: Can't fetch religions from database results.map is not a function
+[2/7/2023, 10:44:00 AM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:42
+    40|             </tr>
+    41| 
+ >> 42|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    43|               <tr>
+    44|                 <!-- <td><%=i; %></td> -->
+    45|                 <td>
+
+userData.forEach is not a function
+[2/7/2023, 10:51:11 AM] error: uncaughtException: Unexpected token '}'
+D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:78
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:11:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/7/2023, 10:56:26 AM] error: religionName is not defined
+[2/7/2023, 10:56:26 AM] error: religionName is not defined
+[2/7/2023, 10:59:30 AM] error: religionName is not defined
+[2/7/2023, 10:59:30 AM] error: religionName is not defined
+[2/7/2023, 10:59:30 AM] error: religionName is not defined
+[2/7/2023, 10:59:30 AM] error: religionName is not defined
+[2/7/2023, 10:59:35 AM] error: religionName is not defined
+[2/7/2023, 10:59:35 AM] error: religionName is not defined
+[2/7/2023, 11:00:05 AM] error: religionName is not defined
+[2/7/2023, 11:00:05 AM] error: religionName is not defined
+[2/7/2023, 11:00:05 AM] error: religionName is not defined
+[2/7/2023, 11:00:05 AM] error: religionName is not defined
+[2/7/2023, 12:33:33 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:41
+    39|             </tr>
+    40| 
+ >> 41|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    42|               <tr>
+    43|                 <!-- <td><%=i; %></td> -->
+    44|                 <td>
+
+userData.forEach is not a function
+[2/7/2023, 12:34:13 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:41
+    39|             </tr>
+    40| 
+ >> 41|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    42|               <tr>
+    43|                 <!-- <td><%=i; %></td> -->
+    44|                 <td>
+
+userData.forEach is not a function
+[2/7/2023, 12:34:43 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:41
+    39|             </tr>
+    40| 
+ >> 41|             <% if(userData.length!=0){ var i=1; userData.forEach(function(data){ %>
+    42|               <tr>
+    43|                 <!-- <td><%=i; %></td> -->
+    44|                 <td>
+
+userData.forEach is not a function
+[2/7/2023, 2:47:01 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:67
+    65|         <div class="d-flex justify-content-center mt-2">
+    66|           <nav aria-label="Page navigation example ">
+ >> 67|             <% if (pages> 0) { %>
+    68|               <ul class="pagination text-center">
+    69|                 <% if (current==1) { %>
+    70|                   <li class="disabled"><a>First</a></li>
+
+pages is not defined
+[2/7/2023, 2:48:36 PM] error: uncaughtException: Product is not defined
+ReferenceError: Product is not defined
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:29:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:49:22 PM] error: uncaughtException: #<Object> is not a function
+TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:30:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:50:22 PM] error: uncaughtException: #<Object> is not a function
+TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:30:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:53:33 PM] error: uncaughtException: #<Object> is not a function
+TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:30:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:54:19 PM] error: uncaughtException: #<Object> is not a function
+TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:30:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:55:56 PM] error: uncaughtException: userData.count is not a function
+TypeError: userData.count is not a function
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:28:38
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:56:11 PM] error: uncaughtException: userData.count is not a function
+TypeError: userData.count is not a function
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:28:38
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:56:24 PM] error: uncaughtException: #<Object> is not a function
+TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:30:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:57:44 PM] error: uncaughtException: #<Object> is not a function
+TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:30:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 2:58:00 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:67
+    65|         <div class="d-flex justify-content-center mt-2">
+    66|           <nav aria-label="Page navigation example ">
+ >> 67|             <% if (pages> 0) { %>
+    68|               <ul class="pagination text-center">
+    69|                 <% if (current==1) { %>
+    70|                   <li class="disabled"><a>First</a></li>
+
+pages is not defined
+[2/7/2023, 2:58:00 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:67
+    65|         <div class="d-flex justify-content-center mt-2">
+    66|           <nav aria-label="Page navigation example ">
+ >> 67|             <% if (pages> 0) { %>
+    68|               <ul class="pagination text-center">
+    69|                 <% if (current==1) { %>
+    70|                   <li class="disabled"><a>First</a></li>
+
+pages is not defined
+[2/7/2023, 2:58:03 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:67
+    65|         <div class="d-flex justify-content-center mt-2">
+    66|           <nav aria-label="Page navigation example ">
+ >> 67|             <% if (pages> 0) { %>
+    68|               <ul class="pagination text-center">
+    69|                 <% if (current==1) { %>
+    70|                   <li class="disabled"><a>First</a></li>
+
+pages is not defined
+[2/7/2023, 2:58:43 PM] error: uncaughtException: Unexpected token '.'
+D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:45
+        userData,  pages: Math.ceil(count / perPage),  religions.count()
+                                                                ^
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/7/2023, 2:58:56 PM] error: uncaughtException: count is not defined
+ReferenceError: count is not defined
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:46:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 3:00:23 PM] error: uncaughtException: #<Object> is not a function
+TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:30:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 3:00:33 PM] error: uncaughtException: religions is not defined
+ReferenceError: religions is not defined
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:29:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 3:00:55 PM] error: uncaughtException: next.find is not a function
+TypeError: next.find is not a function
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:29:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 3:36:10 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:32:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:36:29 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:32:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:36:53 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:37:04 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:37:34 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:38:34 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:39:06 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:39:22 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:39:42 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:40:00 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:40:36 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:41:35 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 3:41:53 PM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 4:05:41 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:69
+    67|             <ul class="pagination">
+    68|               <li class="page-item">
+ >> 69|                 <a class="page-link" href="<%= data %>" aria-label="Previous">
+    70|                   <span aria-hidden="true">&laquo;</span>
+    71|                 </a>
+    72|               </li>
+
+data is not defined
+[2/7/2023, 4:17:56 PM] error: uncaughtException: Unexpected identifier
+D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33
+ar totalRec = 0,
+   ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/7/2023, 4:17:58 PM] error: uncaughtException: Unexpected identifier
+D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:33
+ar totalRec = 0,
+   ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/7/2023, 4:18:24 PM] error: uncaughtException: orm is not defined
+ReferenceError: orm is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:44:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 4:18:47 PM] error: uncaughtException: orm is not defined
+ReferenceError: orm is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:44:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/7/2023, 4:24:00 PM] error: uncaughtException: await is only valid in async functions and the top level bodies of modules
+D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:54
+    const userData = await getReligions();
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/7/2023, 4:32:27 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:34:02 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:34:15 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:34:44 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:35:54 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:36:22 PM] error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:36:38 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:36:51 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:37:32 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:37:48 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:38:01 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:38:44 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 4:39:36 PM] error: uncaughtException: Cannot read properties of undefined (reading 'count')
+TypeError: Cannot read properties of undefined (reading 'count')
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:02:28 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:70
+    68|             <ul class="pagination">
+    69|               <li class="page-item">
+ >> 70|                 <a class="page-link" href="<%= data %>" aria-label="Previous">
+    71|                   <span aria-hidden="true">&laquo;</span>
+    72|                 </a>
+    73|               </li>
+
+data is not defined
+[2/7/2023, 5:02:52 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:69
+    67|             <ul class="pagination">
+    68|               <li class="page-item">
+ >> 69|                 <a class="page-link" href="<%= data %>" aria-label="Previous">
+    70|                   <span aria-hidden="true">&laquo;</span>
+    71|                 </a>
+    72|               </li>
+
+data is not defined
+[2/7/2023, 5:09:59 PM] error: uncaughtException: ReligionModel.findAll(...).skip is not a function
+TypeError: ReligionModel.findAll(...).skip is not a function
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:26:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:10:15 PM] error: uncaughtException: ReligionModel.find is not a function
+TypeError: ReligionModel.find is not a function
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:25:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:10:47 PM] error: uncaughtException: ReligionModel.find is not a function
+TypeError: ReligionModel.find is not a function
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:25:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:14:54 PM] error: uncaughtException: ReligionModel.find is not a function
+TypeError: ReligionModel.find is not a function
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:25:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:30:49 PM] error: uncaughtException: arr.reduce is not a function
+TypeError: arr.reduce is not a function
+    at paginate (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:43:20)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:40:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:32:51 PM] error: uncaughtException: arr.reduce is not a function
+TypeError: arr.reduce is not a function
+    at paginate (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:43:20)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:40:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:34:43 PM] error: uncaughtException: arr.reduce is not a function
+TypeError: arr.reduce is not a function
+    at paginate (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:42:20)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:40:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:35:58 PM] error: uncaughtException: arr.reduce is not a function
+TypeError: arr.reduce is not a function
+    at paginate (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:43:20)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:40:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/7/2023, 5:36:18 PM] error: uncaughtException: arr.reduce is not a function
+TypeError: arr.reduce is not a function
+    at paginate (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:43:20)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:40:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2/8/2023, 9:52:50 AM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:11:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:14:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/8/2023, 9:52:54 AM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:14:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/8/2023, 9:53:05 AM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:14:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/8/2023, 9:53:29 AM] error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:14:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/8/2023, 9:54:51 AM] error: uncaughtException: Cannot access 'posts' before initialization
+ReferenceError: Cannot access 'posts' before initialization
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:8:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 9:55:12 AM] error: uncaughtException: Religion.find is not a function
+TypeError: Religion.find is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:10:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 9:56:05 AM] error: uncaughtException: Religion.find is not a function
+TypeError: Religion.find is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:11:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 9:56:39 AM] error: uncaughtException: Religion.find is not a function
+TypeError: Religion.find is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:11:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 9:57:00 AM] error: uncaughtException: Religion.findOne(...).limit is not a function
+TypeError: Religion.findOne(...).limit is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:12:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 9:57:00 AM] error: uncaughtException: WHERE parameter "id" has invalid "undefined" value
+Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1693:13)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1684:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1682:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2025:19)
+    at MySQLQueryGenerator.selectQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:954:28)
+    at MySQLQueryInterface.select (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:59)
+    at Function.findAll (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1134:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Function.findOne (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1228:12)
+[2/8/2023, 9:57:27 AM] error: uncaughtException: Religion.findOne(...).limit is not a function
+TypeError: Religion.findOne(...).limit is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:12:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 9:57:27 AM] error: uncaughtException: WHERE parameter "id" has invalid "undefined" value
+Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1693:13)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1684:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1682:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2025:19)
+    at MySQLQueryGenerator.selectQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:954:28)
+    at MySQLQueryInterface.select (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:59)
+    at Function.findAll (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1134:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Function.findOne (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1228:12)
+[2/8/2023, 9:57:32 AM] error: uncaughtException: Religion.findOne(...).limit is not a function
+TypeError: Religion.findOne(...).limit is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:12:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 9:57:32 AM] error: uncaughtException: WHERE parameter "id" has invalid "undefined" value
+Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1693:13)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1684:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1682:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2025:19)
+    at MySQLQueryGenerator.selectQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:954:28)
+    at MySQLQueryInterface.select (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:59)
+    at Function.findAll (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1134:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Function.findOne (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1228:12)
+[2/8/2023, 9:57:57 AM] error: uncaughtException: Religion.findOne(...).limit is not a function
+TypeError: Religion.findOne(...).limit is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:12:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 9:57:57 AM] error: uncaughtException: WHERE parameter "id" has invalid "undefined" value
+Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1693:13)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1684:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1682:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2025:19)
+    at MySQLQueryGenerator.selectQuery (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-generator.js:954:28)
+    at MySQLQueryInterface.select (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:59)
+    at Function.findAll (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1134:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Function.findOne (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\sequelize\lib\model.js:1228:12)
+[2/8/2023, 9:58:44 AM] error: uncaughtException: Religion.find is not a function
+TypeError: Religion.find is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:10:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 10:13:01 AM] error: uncaughtException: Religion.find is not a function
+TypeError: Religion.find is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:10:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 10:14:25 AM] error: uncaughtException: Religion.find is not a function
+TypeError: Religion.find is not a function
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:10:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:5
+[2/8/2023, 10:27:19 AM] error: uncaughtException: document is not defined
+ReferenceError: document is not defined
+    at Object.getReligion (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:9:5)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:22:30
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:144:13)
+    at ensureAuthenticated (D:\NODE JS PROGRAM\snehaanchal-app-new\helpers\auth-helper.js:3:12)
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NODE JS PROGRAM\snehaanchal-app-new\node_modules\express\lib\router\index.js:284:15
+[2/8/2023, 11:20:35 AM] error: uncaughtException: Unexpected token ')'
+D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:48
+            let endingLink = (interator + 9) <=numOfPages ? (interator + 9) : page + (numOfPages - page))
+                                                                                                        ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+[2/8/2023, 11:28:09 AM] error: result is not defined
+[2/8/2023, 11:38:07 AM] error: result is not defined
+[2/8/2023, 11:38:09 AM] error: result is not defined
+[2/8/2023, 11:58:55 AM] error: uncaughtException: getReligion is not defined
+ReferenceError: getReligion is not defined
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\controllers\religionController.js:90:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:14:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+[2/8/2023, 12:04:40 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:45
+    43|             </thead>
+    44|             <tbody>
+ >> 45|               <% if(userData.length!=0) { var i=1; userData.forEach(function(data){ %>
+    46|                 <tr>
+    47|                   <!-- <td><%=i; %></td> -->
+    48|                   <td>
+
+Cannot read properties of undefined (reading 'length')
+[2/8/2023, 12:04:41 PM] error: D:\NODE JS PROGRAM\snehaanchal-app-new\views\masterPages\religion.ejs:45
+    43|             </thead>
+    44|             <tbody>
+ >> 45|               <% if(userData.length!=0) { var i=1; userData.forEach(function(data){ %>
+    46|                 <tr>
+    47|                   <!-- <td><%=i; %></td> -->
+    48|                   <td>
+
+Cannot read properties of undefined (reading 'length')
+[2/8/2023, 12:11:40 PM] error: uncaughtException: missing ) after argument list
+D:\NODE JS PROGRAM\snehaanchal-app-new\routes\religionRoute.js:68
+    console.log(JSON.stringify(resultPerPage)
+                                            ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\NODE JS PROGRAM\snehaanchal-app-new\app.js:121:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)

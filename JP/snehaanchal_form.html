@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Registration-Form</title>
+</head>
+<div class="container">
+    <div class="row">
+        <div class="mt-4">
+            <div class="md-2">
+                <!-- form start -->
+
+                <form class="needs-validation" novalidate method="post">
+                    <div class="row align-items-center">
+                        <div class="col mt-2">
+                            <h4 class="text-center">Registration Form</h4>
+                        </div>
+                    </div>
+                    <!-- ********************************************************* -->
+
+                    <!-- ***************************************** -->
+                    <!-- ************************************************ -->
+
+                    <div class="row g-2 mt-4" style="max-width: 100%">
+                        <div class="col-md-10">
+                            <div class="row g-2">
+                                <div class="col-sm-7">
+                                    <div class="form-floating">
+                                        <input autofocus type="text" class="form-control" name="name" id="name"
+                                            placeholder="Name" maxlength="75"
+                                            value="<%= typeof name != 'undefined' ? name : '' %>" required>
+                                        <label for="name">Name: </label>
+                                        <div class="invalid-feedback">Name is required</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="age" id="age"
+                                            placeholder="Age/Sex" required pattern="^[1-9]\d*$"
+                                            value="<%= typeof age != 'undefined' ? age : '' %>">
+                                        <label for="age">Age:</label>
+                                        <div class="invalid-feedback">Age is required</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <select class="form-select mb-2" id="gender" name="gender" required>
+                                            <option selected>select gender</option>
+                                            <option value="1">M</option>
+                                            <option value="2">F</option>
+                                            <option value="3">O</option>
+                                        </select>
+                                        <label for="gender">Gender:</label>
+                                        <div class="invalid-feedback">Please gender is required</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="reg_id" id="reg_id"
+                                            placeholder="Reg.id" disabled maxlength="25"
+                                            value="<%= typeof reg_id != 'undefined' ? reg_id : '' %>">
+                                        <label for="reg_id">Reg.No:</label>
+                                        <div class="invalid-feedback">Registration Number is required</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="date" class="form-control" name="reg_date" id="reg_date"
+                                            value="<%= typeof reg_date != 'undefined' ? reg_date : '' %>" required>
+                                        <label for="reg_date">Date:</label>
+                                        <div class="invalid-feedback">Please fill date..</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-4">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control mt-2" name="aadhar" id="aadhar"
+                                            placeholder="Aadhar" pattern="[0-9]{12}"
+                                            value="<%= typeof aadhar != 'undefined' ? aadhar : '' %>" required>
+                                        <label for="aadhar">Aadhar No:</label>
+                                        <div class="invalid-feedback">Aadhar Number is required</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control mt-2" name="ref_by" id="ref_by"
+                                            placeholder="Reference By" maxlength="65"
+                                            value="<%= typeof ref_by != 'undefined' ? ref_by : '' %>">
+                                        <label for="ref_by">Reference BY:</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-floating">
+                                        <input type="file" class="form-control  mt-2" name="pic_filename"
+                                            id="pic_filename" required>
+                                        <!-- <label for="floatingInputGrid">Document:</label> -->
+                                        <div class="invalid-feedback">only allows image jpg,png not pdf/word </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card mx-auto" style="width: 11rem; height: 12rem">
+                                <img src="..." class="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- start second para details end -->
+
+
+                    <div class="row g-2 mt-1" style="max-width: 100%">
+                        <div class="col-md-12">
+                            <div class="row g-2">
+                                <div class="col-md-4">
+                                    <div class="form-floating">
+                                        <select class="form-select mb-2" id="user_type" name="user_type" required>
+                                            <option selected>select user</option>
+                                            <option value="1">Owner</option>
+                                            <option value="2">Admin</option>
+                                            <option value="3">Doctor</option>
+                                            <option value="4">Counseller</option>
+                                        </select>
+                                        <label for="gender">User Type:</label>
+                                        <div class="invalid-feedback">Please user is required</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-floating">
+                                        <select class="form-select mb-2" id="patient_type" name="patient_type" required>
+                                            <option selected>select patient type</option>
+                                            <option value="1">HC</option>
+                                            <option value="2">IPD</option>
+                                            <option value="3">OPD</option>
+
+                                        </select>
+                                        <label for="gender">Patient Type:</label>
+                                        <div class="invalid-feedback">Please select patient Type</div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <select class="form-select mb-2" id="status" name="status" required>
+                                            <option value="1">Active</option>
+                                            <option value="2">Inactive</option>
+                                        </select>
+                                        <label for="gender">Patient Status:</label>
+                                        <div class="invalid-feedback">Please select Patient status</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- patient address deatails start  -->
+
+                    <div class="row g-2 mt-2">
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <textarea class="form-control" name="local_address"
+                                    placeholder="Please Fill your address" id="local_address" maxlength="500"
+                                    value="<%= typeof local_address != 'undefined' ? local_address : '' %>"
+                                    required></textarea>
+                                <label for="local_address">Local Address:</label>
+                                <div class="invalid-feedback">It is mandatory field</div>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input class="form-control" name="local_city" id="local_city"
+                                    placeholder="Please Fill your address" maxlength="45"
+                                    value="<%= typeof local_city != 'undefined' ? local_city : '' %>" required>
+                                <label for="local_city">City:</label>
+                                <div class="invalid-feedback">It is mandatory field</div>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <textarea class="form-control" name="local_landmark" id="local_landmark"
+                                    placeholder="Please Fill your address" maxlength="65"
+                                    value="<%= typeof local_landmark != 'undefined' ? local_landmark : '' %>"
+                                    required></textarea>
+                                <label for="local_landmark">Landmarks:</label>
+                                <div class="invalid-feedback">It is mandatory field</div>
+                            </div>
+
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="local_phone1" id="local_phone1"
+                                    placeholder="Please Fill your address" pattern="^[1-9]\d*$"
+                                    value="<%= typeof local_phone1 != 'undefined' ? local_phone1 : '' %>" required>
+                                <label for="local_phone1">Ph 1:</label>
+                                <div class="invalid-feedback">It is mandatory field</div>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="local_phone2" id="local_phone2"
+                                    placeholder="Please Fill your address" pattern="^[1-9]\d*$"
+                                    value="<%= typeof local_phone2 != 'undefined' ? local_phone2 : '' %>">
+                                <label for="local_phone2">Ph 2:</label>
+                            </div>
+                        </div>
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <textarea class="form-control" name="permanent_address"
+                                    placeholder="Please Fill your address" id="permanent_address" maxlength="500"
+                                    value="<%= typeof permanent_address != 'undefined' ? permanent_address : '' %>"></textarea>
+                                <label for="permanent_address">Permanent Address:</label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input class="form-control" name="permanent_city" id="permanent_city"
+                                    placeholder="Please Fill your address" maxlength="45"
+                                    value="<%= typeof permanent_city != 'undefined' ? permanent_city : '' %>">
+                                <label for="permanent_city">City:</label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <textarea class="form-control" name="permanent_landmark" id="permanent_landmark"
+                                    placeholder="Please Fill your address" maxlength="65"
+                                    value="<%= typeof permanent_landmark != 'undefined' ? permanent_landmark : '' %>"></textarea>
+                                <label for="permanent_landmark">Landmarks:</label>
+                            </div>
+
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="permanent_phone1" id="permanent_phone1"
+                                    placeholder="Ph 1:" pattern="^[1-9]\d*$"
+                                    value="<%= typeof permanent_phone1 != 'undefined' ? permanent_phone1 : '' %>">
+                                <label for="permanent_phone1">Ph 1:</label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="permanent_phone2" id="permanent_phone2"
+                                    placeholder="Ph 2:" pattern="^[1-9]\d*$"
+                                    value="<%= typeof permanent_phone2 != 'undefined' ? permanent_phone2 : '' %>">
+                                <label for="permanent_phone2">Ph 2:</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- patient address deatails stop -->
+
+                    <!-- family deatails and relatives deatails start -->
+                    <div class="col mt-4"></div>
+
+                    <div class="row g-2">
+                        <div class="col-sm-6 mb-4">
+                            <div class="col text-center">
+                                <label>
+                                    <b>Family Details</b>
+                                </label>
+                            </div>
+                            <div class="form-floating mt-4">
+                                <input type="text" class="form-control" name="fathers_name" id="fathers_name"
+                                    placeholder="Father Name" maxlength="45"
+                                    value="<%= typeof fathers_name != 'undefined' ? fathers_name : '' %>">
+                                <label for="fathers_name">Father Name: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="mothers_name" id="mothers_name"
+                                    placeholder="Mother Name" maxlength="45"
+                                    value="<%= typeof mothers_name != 'undefined' ? mothers_name : '' %>">
+                                <label for="mothers_name">Mother Name: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="spouse_name" id="spouse_name"
+                                    placeholder="Spouses Name" maxlength="45"
+                                    value="<%= typeof spouse_name != 'undefined' ? spouse_name : '' %>">
+                                <label for="spouse_name">Spouse's Name: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="religion" id="religion"
+                                    placeholder="Relegion" maxlength="75"
+                                    value="<%= typeof religion != 'undefined' ? religion : '' %>">
+                                <label for="religion">Relegion: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="language" id="language"
+                                    placeholder="Language" maxlength="45"
+                                    value="<%= typeof language != 'undefined' ? language : '' %>">
+                                <label for="language">Language: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="occupation" id="occupation"
+                                    placeholder="Occupation" maxlength="45"
+                                    value="<%= typeof occupation != 'undefined' ? occupation : '' %>">
+                                <label for="occupation">Occupation: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="family_occupation" id="family_occupation"
+                                    placeholder="Father/Spouse's Occupation" maxlength="45"
+                                    value="<%= typeof family_occupation != 'undefined' ? family_occupation : '' %>">
+                                <label for="family_occupation">Father/Spouse's Occupation: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="number" class="form-control" name="family_earning" id="family_earning"
+                                    placeholder="Total Family Earning Month"
+                                    value="<%= typeof family_earning != 'undefined' ? family_earning : '' %>">
+                                <label for="family_earning">Total Family Earning Month: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <textarea class="form-control" name="remarks" id="remarks" placeholder="Remarks"
+                                    style="height: 90px"
+                                    value="<%= typeof remarks != 'undefined' ? remarks : '' %>"></textarea>
+                                <label for="remarks">Remarks:</label>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 mb-4">
+                            <div class="col text-center">
+                                <label>
+                                    <b> Details Of Closest Relatives / Friend(For Emergency) </b>
+                                </label>
+                            </div>
+                            <div class="form-floating mt-4">
+                                <input type="text" class="form-control" name="buddy_name" id="buddy_name"
+                                    placeholder="Name:" maxlength="45"
+                                    value="<%= typeof buddy_name != 'undefined' ? buddy_name : '' %>">
+                                <label for="buddy_name">Name: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="buddy_relation" id="buddy_relation"
+                                    placeholder="Relationship" maxlength="45"
+                                    value="<%= typeof buddy_relation != 'undefined' ? buddy_relation : '' %>">
+                                <label for="buddy_relation">Relationship: </label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control mt-2" placeholder="Address" id="buddy_address"
+                                    name="buddy_address" maxlength="500"
+                                    value="<%= typeof buddy_address != 'undefined' ? buddy_address : '' %>"></textarea>
+                                <label for="buddy_address">Address:</label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="buddy_city" id="buddy_city"
+                                    placeholder="City" maxlength="45"
+                                    value="<%= typeof buddy_city != 'undefined' ? buddy_city : '' %>">
+                                <label for="buddy_city">City: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" placeholder="phone number" name="buddy_phone"
+                                    id="buddy_phone" pattern="^[1-9]\d*$"
+                                    value="<%= typeof buddy_phone != 'undefined' ? buddy_phone : '' %>">
+                                <label for="buddy_phone">Ph:</label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="buddy1_name" id="buddy1_name"
+                                    placeholder="Name:" maxlength="45"
+                                    value="<%= typeof buddy1_name != 'undefined' ? buddy1_name : '' %>">
+                                <label for="buddy1_name">Name: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="buddy1_relation" id="buddy1_relation"
+                                    placeholder="Relationship" maxlength="45"
+                                    value="<%= typeof buddy1_relation != 'undefined' ? buddy1_relation : '' %>">
+                                <label for="buddy1_relation">Relationship: </label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control mt-2" placeholder="Address" id="buddy1_address"
+                                    name="buddy1_address" maxlength="500"
+                                    value="<%= typeof buddy1_address != 'undefined' ? buddy1_address : '' %>"></textarea>
+                                <label for="buddy1_address">Address:</label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" name="buddy1_city" id="buddy1_city"
+                                    placeholder="City" maxlength="45"
+                                    value="<%= typeof buddy1_city != 'undefined' ? buddy1_city : '' %>">
+                                <label for="buddy1_city">City: </label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input type="text" class="form-control" placeholder="phone number" name="buddy1_phone"
+                                    id="buddy1_phone" pattern="^[1-9]\d*$"
+                                    value="<%= typeof buddy1_phone != 'undefined' ? buddy1_phone : '' %>">
+                                <label for="buddy1_phone">Ph:</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="conteiner-fluid">
+                        <div class="row">
+                            <div class="row align-items-center">
+                                <div class="col mt-2">
+                                    <h5 class="text-center">Details Of Person Accompaying Patient At Time Of
+                                        Admission</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- family deatails and relatives deatails stop -->
+                    <div class="col mt-5"></div>
+
+                    <!-- deatails of person accompying patient at the time of addmission start -->
+                    <div class="row g-2">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="admit_name" id="admit_name" placeholder="Name"
+                                maxlength="45" value="<%= typeof admit_name != 'undefined' ? admit_name : '' %>"
+                                required>
+                            <label for="admit_name">Name: </label>
+                            <div class="invalid-feedback">It is mandatory to fill</div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="admit_relation" id="admit_relation"
+                                placeholder="Relationship With Patient" maxlength="45"
+                                value="<%= typeof admit_relation != 'undefined' ? admit_relation : '' %>" required>
+                            <label for="admit_relation">Relationship With Patient:</label>
+                            <div class="invalid-feedback">It is mandatory to fill</div>
+                        </div>
+
+                        <div class="form-floating mt-2">
+                            <textarea class="form-control" name="admit_address" id="admit_address" style="height: 100px"
+                                value="<%= typeof admit_address != 'undefined' ? admit_address : '' %>"
+                                required></textarea>
+                            <label for="admit_address">Address: </label>
+                            <div class="invalid-feedback">It is mandatory to fill</div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-md">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="admit_age" name="admit_age"
+                                        placeholder="Age" maxlength="11"
+                                        value="<%= typeof admit_age != 'undefined' ? admit_age : '' %>" required>
+                                    <label for="admit_age">Age:</label>
+                                    <div class="invalid-feedback">It is mandatory to fill</div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="form-floating">
+                                    <select class="form-select" id="admit_gender" name="admit_gender" required>
+                                        <option selected>select gender</option>
+                                        <option value="1">M</option>
+                                        <option value="2">F</option>
+                                        <option value="3">O</option>
+                                    </select>
+                                    <label for="gender">Gender:</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- deatails of person accompying patient at the time of addmission end -->
+
+                    <div class="col mt-5"></div>
+                    <div class="d-grid gap-2 d-md-block text-center">
+                        <button type="submit" name="save" id="save" class="btn btn-primary">Save</button>
+                        <button type="submit" name="continue" id="continue" class="btn btn-secondary">Continue</button>
+                    </div>
+                </form>
+
+                <!-- form end -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict';
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation');
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+            form.addEventListener(
+                'submit',
+                function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+
+                    form.classList.add('was-validated');
+                },
+                false
+            );
+        });
+    })();
+</script>
+</body>
+
+</html>
